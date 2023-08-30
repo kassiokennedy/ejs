@@ -1,0 +1,97 @@
+.title {
+  /* Titulo do texto*/
+  font: 700 1.31rem "Poppins", sans-serif;
+  color: var(--title-color);
+  -webkit-font-smoothing: auto;
+}
+
+h1,
+h2,
+h3,
+button {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  text-align: center;
+}
+text {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* ------------------------------------------------ */
+
+body {
+  background-color: rgb(135, 65, 65);
+}
+img {
+  width: 1000px; /* Defina a largura desejada */
+  height: auto; /* A altura será ajustada automaticamente para manter a proporção original */
+}
+head {
+  background-color: yellowgreen;
+}
+/* ------------------------------------------------ */
+.tab button {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+  /*background-color: #ddd;*/
+  background: whitesmoke;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #fcc071;
+}
+form {
+  background-color: white;
+  min-width: 300px;
+  max-width: 300px;
+  padding: 20px;
+  width: 60%;
+  /* o que tem abaixo centraliza o formularo na tela */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+form h3 {
+  text-align: center;
+  color: rgb(36, 133, 60);
+}
+form input[type="text"],
+form input[type="password"] {
+  width: 96%;
+  height: 45px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  margin: 10px 0;
+
+  border-radius: 0.4rem;
+}
+form input[type="submit"] {
+  width: 300px;
+  height: 30px;
+  cursor: pointer;
+  background: rgb(36, 133, 60);
+  color: white;
+  border: 0;
+  border-radius: 0.4rem;
+}
+form input[type="submit"]:hover {
+  background-color: rgb(36, 133, 60);
+}
+form input[type="text"]:focus {
+  outline: 0;
+}
+form input[type="password"]:focus {
+  outline: 0;
+}
